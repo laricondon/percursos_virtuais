@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html style="height: 100%">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<link rel="stylesheet" type="text/css" href="stylequiz.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+
+	<title>Bitola Estreita</title>
+
+	<script src="java.js"></script>
+
+	<style>
+		body{
+		background-color: #F5F4F0;
+    	background-image: url("bitola.png");
+		background-repeat: no-repeat;
+	    background-position: center;
+	    background-attachment: fixed;
+	    background-size: contain;
+	    min-height: 100%
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id=cp>
+	
+			<div class="dropdown">
+	  			<img 
+	  			 src="./botoes/bot.png"></img>
+	  			<div class="dropdown-content">
+	  				<a href="index.html">O Projeto</a> 
+	    			<a href="equipe.html">Equipe</a>
+	    			<a href="contato.html">Contato</a>
+	   	
+	  			</div>
+			</div>
+
+			<h1 class=com>
+		PERCURSOS VIRTUAIS
+		</h1>
+
+	</div>
+
+	<img style="top: 20%;" class="quiz" onclick="hide('quiz', 0)"  
+	  src="./botoes/arq.png"></img>
+	<img style="top: 37%;" class="quiz" onclick="hide('quiz', 1)" 
+	  src="./botoes/paisag.png"></img>
+	<img style="top: 54%;" class="quiz" onclick="hide('quiz', 2)" 
+	  src="./botoes/gastr.png"></img>
+	<img style="top: 71%;" class="quiz" onclick="hide('quiz', 3)" 
+	  src="./botoes/curios.png"></img>
+
+	
+
+
+
+	<div class="popup_externo" style="background-color: #996533;">
+		<h1> ARQUITETURA </h1>
+			<div class="popup_interno"> 
+
+				<p class="per">Sabe por que existe uma faixa rebaixada e meio torta que corre por todo o chão da plataforma da estação?</p>
+				<p class="res" style="display: none;">Por um tempo duas linhas de trem correram nessa estação: uma estreita para o interior e uma larga para a capital.</p>
+
+
+
+
+					<div class="resposta" style="background-color: #996533;" onclick="resposta(0)">
+						<h1> RESPOSTA </h1>
+					</div>
+
+					<div class="voltar" style="background-color: #996533;" onclick="show('quiz', 0)">
+						<h1> VOLTAR </h1>
+					</div>
+			</div>	
+	</div>
+
+	<div class="popup_externo" style="background-color: #99cc65;">
+		<h1> PAISAGEM </h1>
+			<div class="popup_interno"> 
+
+				<p class= "per"> Por que a Maria Fumaça está posicionada nesse lugar?</p>
+				<p class="res" style="display: none;">A Maria Fumaça exposta na plataforma está alinhada nesse percurso justamente para indicá-lo, pois ela circulou ali nos antigos trilhos da bitola estreita.</p>
+
+
+
+
+					<div class="resposta" style="background-color: #99cc65;" onclick="resposta(1)">
+						<h1> RESPOSTA </h1>
+					</div>
+
+					<div class="voltar" style="background-color: #99cc65;" onclick="show('quiz', 1)">
+						<h1> VOLTAR </h1>
+					</div>
+			</div>	
+	</div>
+
+	<div class="popup_externo" style="background-color: #da5858;">
+		<h1> MEIOS DE TRANSPORTE </h1>
+			<div class="popup_interno"> 
+
+				<p class= "per">Para onde iam os trens que passavam pela bitola estreita e o que transportavam?</p>
+				<p class="res" style="display: none;">Esta segunda linha era a dos ramais de Água Vermelha e de Ribeirão Bonito, estações subsidiárias à estação de São Carlos, que transportavam cargas menores e pessoas.</p>
+
+
+
+
+					<div class="resposta"  style="background-color: #da5858;" onclick="resposta(2)">
+						<h1> RESPOSTA </h1>
+					</div>
+
+					<div class="voltar" style="background-color: #da5858;" onclick="show('quiz', 2)">
+						<h1> VOLTAR </h1>
+					</div>
+			</div>	
+	</div>
+
+	<div class="popup_externo" style="background-color: #ffff67;">
+		<h1> CURIOSIDADE </h1>
+			<div class="popup_interno"> 
+
+				<p class= "per">Por que existiam duas linhas de trem?</p>
+				<p class="res" style="display: none;">A bitola estreita era destinada a tráfegos curtos, principalmente de pessoas, já a bitola larga, que ainda existe, era utilizada para o tráfego de locomotivas e vagões maiores.</p>
+
+
+
+
+					<div class="resposta" style="background-color: #ffff67;" onclick="resposta(3)">
+						<h1> RESPOSTA </h1>
+					</div>
+
+					<div class="voltar" style="background-color: #ffff67;" onclick="show('quiz', 3)">
+						<h1> VOLTAR </h1>
+					</div>
+			</div>	
+	</div>
+	
+
+
+	<div id="down">
+		<ul style="margin: 0; padding: 0;">
+		<li style="float: left;"><a href="bitola_saibamais.html"> Saiba + </a></li>
+		<li style="float: right;"><a> Comente </a></li>
+
+		</ul>
+	</div>
+
+		
+
+	<!---<a class=bot href="#">
+		<h3 class=com>Começar Trajeto</h3>
+	</a> -->
+ 
+
+ 	
+
+	
+</body>
+</html>

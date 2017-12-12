@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<title>:: NOMADS :: USP</title>
+<link rel='stylesheet' type='text/css' href='css/style.css' />
+<link rel='stylesheet' type='text/css' href='shadowbox/shadowbox.css' />
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery.color-RGBa-patch.js'></script>
+<script type='text/javascript' src='js/example.js'></script>
+<script type='text/javascript' src='shadowbox/shadowbox.js'></script>
+<script type='text/javascript' src='shadowbox/shadowbox2.js'></script>
+</head>
+<body>
+<div id="marquee">
+	<marquee scrollamount="3">
+	<a href="?sec=11&amp;item=1&amp;lang=pt"><span style="color:#FFFFFF;">CHAMADA DE TRABALHOS V!RUS 13: BOAS NOTÍCIAS PARA TEMPOS DIFÍCEIS . ATÉ 22 DE AGOSTO DE 2016 </span></a> | 
+	<a href="?sec=11&amp;item=1&amp;lang=en"><span style="color:#BBB;">CALL FOR PAPERS V!RUS 13: GOOD NEWS FOR HARD TIMES . DEADLINE AUGUST 22ND, 2016</span></a>
+	</marquee>
+	<!--
+	<marquee scrollamount="3">
+		<a href="/virus/virus12/"><span class="pt"> V!RUS 12 MODERNOS RADICAIS </span></a>	
+		<a href="/virus/virus12/"><span class ="en"> V!RUS 12 RADICAL MODERNS </span></a>
+	</marquee>
+	-->
+</div>
+<div id="example-two">
+  <li class="current_page_item_two"><a rel="#5e1d45" href="apresentacao/apresentacao.html">apresentação<br>
+    <span>about</span></a></li>
+  <li><a rel="#fd132c" href="../virus/">v<span class="little">!</span>rus<br>
+    <span>journal</span></a></li>
+  <li><a rel="#e4286f" href="mapa_astral/mapa_astral.html">pesquisas<br>
+    <span>research</span></a></li>
+  <li><a rel="#613a71" href="entrevistas/entrevistas.html">entrevistas<br>
+    <span>interviews</span></a></li>
+  <li><a rel="#0b1946" href="eventos/eventos.html">eventos<br>
+    <span>events</span></a></li>
+  <li><a rel="#050842" href="crew/crew.html">pessoas<br>
+    <span>crew</span></a></li>
+  <li><a rel="#0a1a2b" href="http://www.arquitetura.eesc.usp.br/">iau<br>
+    <span>iau</span></a></li>
+  <li><a rel="#0a1a2b" href="arqdesign/arqdes.html">projetos<br>
+    <span>projects</span></a></li>
+  <li><a rel="#050842" href="../pesquisas/design/dos/design_lab/">designlab<br>
+    <span>designlab</span></a></li>
+  <li><a rel="#0b1946" href="livraria/livraria.html">livreárea<br>
+    <span>freebookshop</span></a></li>
+  <li><a rel="#fd132c" href="referencias">referências<br>
+    <span>references </span></a></li>
+  <li><a rel="#e4286f" href="documentacao/index.php">documentação<br>
+    <span>documentation</span></a></li>
+  <li><a rel="#fd132c" href="../search/search.php">buscador<br>
+    <span>search</span></a></li>
+  <li><a rel="shadowbox;height=215;width=400 #e4286f" href="contato/contato.html">contato<br>
+    <span>contact</span></a></li>
+</div>
+</body>
+</html>
